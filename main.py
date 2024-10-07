@@ -14,7 +14,7 @@ def calculate_bonus(users: dict) -> list:
     return bonus_users
 
 users = {
-    1: {'packages': 1500, 'referrals': [2, 3, 14, 15]},
+    1: {'package': 1500, 'referrals': [2, 3, 14, 15]},
     2: {'package': 1500, 'referrals': [4, 5]},
     3: {'package': 1500, 'referrals': [6, 7]},
     4: {'package': 1500, 'referrals': []},
